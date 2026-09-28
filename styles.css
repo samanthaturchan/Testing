@@ -145,3 +145,13 @@ nav a:hover { color: var(--coral-ink); }
   .head-row { flex-direction: column; align-items: flex-start; gap: 16px; }
   .card-lg h3 { margin-top: 32px; }
 }
+
+/* LinkedIn */
+.icon-link { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+.icon-link:hover { color: var(--coral-ink); }
+.closer-sub { margin-bottom: 12px; }
+.alt-contact { font-size: .9rem; margin: 0 0 40px; }
+.alt-contact a { font-weight: 600; text-underline-offset: 3px; }
+.alt-contact a:hover { color: var(--coral-ink); }
+.site-footer .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.site-footer p { margin: 0; }
