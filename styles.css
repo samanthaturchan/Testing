@@ -37,7 +37,7 @@ a { color: inherit; }
 
 .site-header { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line); z-index: 10; }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.brand { font-family: "Fraunces", serif; font-weight: 700; text-decoration: none; }
+.brand { font-family: "Fraunces", serif; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .brand span { color: var(--accent); font-weight: 500; }
 nav { display: flex; gap: 20px; align-items: center; }
 nav a { text-decoration: none; font-weight: 500; }
@@ -80,4 +80,8 @@ nav a { text-decoration: none; font-weight: 500; }
   .grid-2 { grid-template-columns: 1fr; gap: 16px; }
   .hero { padding: 64px 0 56px; }
   .section { padding: 56px 0; }
+}
+@media (max-width: 420px) {
+  .brand { font-size: .9rem; }
+  nav { gap: 12px; }
 }
