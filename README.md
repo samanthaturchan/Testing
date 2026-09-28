@@ -4,7 +4,7 @@ Static personal site (About + Contact). No build step.
 
 ## Before launch
 1. **Bio**: done. Edit About / favourites copy in `index.html` as needed.
-2. **Contact form**: create a free form at https://formspree.io, then replace `YOUR_FORM_ID` in `index.html`.
+2. **Contact form**: connected to Formspree form `xgavrorj`.
 
 ## Preview locally
 Open `index.html` in a browser, or run `python3 -m http.server` and go to http://localhost:8000.
