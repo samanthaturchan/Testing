@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sam Turchan | Engage Media</title>
+  <meta name="description" content="Sam Turchan, Engage Media: strategic social media and content marketing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top">Sam Turchan <span>Engage Media</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Social media &amp; content strategy</p>
+        <h1>Content that earns attention and moves the mission forward.</h1>
+        <p class="lede">I help brands build social and content programs that stay data-driven, repeatable, and ready to scale.</p>
+        <a href="#contact" class="btn">Work with me</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap grid-2">
+        <div>
+          <h2>About</h2>
+        </div>
+        <div class="prose">
+          <p><!-- TODO: replace with Sam's bio -->I'm Sam Turchan, founder of Engage Media. I work with mission-driven brands on social media and content marketing, and every piece of work ties back to measurable growth.</p>
+          <p>My approach is simple: question the assumptions, build on real data, and automate what can be automated so the strategy scales.</p>
+          <ul class="pillars">
+            <li><strong>Strategy</strong><span>Positioning, channel mix, and content pillars tied to business goals.</span></li>
+            <li><strong>Content</strong><span>Editorial calendars, copy, and creative direction.</span></li>
+            <li><strong>Measurement</strong><span>Clean reporting and automation so decisions rest on accurate numbers.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="wrap grid-2">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">Tell me what you're working on. I usually reply within two business days.</p>
+        </div>
+        <!-- Replace YOUR_FORM_ID with a Formspree form ID (see README). -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+          <label>Company <span class="muted">(optional)</span><input type="text" name="company" autocomplete="organization"></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Sam Turchan · Engage Media</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
