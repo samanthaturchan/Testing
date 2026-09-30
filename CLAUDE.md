@@ -2,7 +2,10 @@
 
 Static site (plain HTML/CSS, no build step). Owner: Sam Turchan.
 
+Master brief: "Sam Turchan | Engage Media" section of the Client Briefs doc (https://claude.ai/code/artifact/fe52c63f-23b9-453a-bb24-2171af80246e). Update the doc first, then mirror changes here.
+
 ## Files
+- `.vercelignore`: keeps `CLAUDE.md` and `README.md` off the live site
 - `index.html`: the whole page (hero, throughline, approach, about, favourites, work, contact)
 - `styles.css`: all styling; colour tokens on `:root`
 
